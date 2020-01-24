@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+  font-family: 'Roboto Condensed', sans-serif;
+  line-height: 1.6;
+  background: linear-gradient(90deg, rgba(37,25,241,1) 0%, rgba(34,125,140,1) 0%, rgba(9,232,169,1) 54%, rgba(188,201,204,1) 100%);
+  font-size: 10px;
+}
+
+body{
+height: 100%;
+padding: 20px 50px;
+font-size: 1.6rem;
+font-weight: bolder;
+}
+
+.container {
+  background: brown;
+  padding: 50px;
+  height: 100%;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+form {
+  width: 90%;
+  max-width: 600px;
+  border: 2px solid rgb(241, 139, 5);
+  padding: 1.25em;
+  
+}
+h2 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.field-row {
+  display: flex;
+  margin: 5px;
+  background: lightgrey;
+  align-items: center;
+  
+}
+
+label {
+  flex: 2 1 0%;
+  text-align: center;
+}
+input,textarea{
+  flex: 3 1 50%;
+  padding: 5px;
+  border-radius: 2px;
+  border: 1px solid black
+}
+
+button {
+  padding: 5px 10px;
+  background: lightskyblue;
+  outline: 0;
+  border: 0;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.top-align > label {
+  align-self: flex-start;
+}
